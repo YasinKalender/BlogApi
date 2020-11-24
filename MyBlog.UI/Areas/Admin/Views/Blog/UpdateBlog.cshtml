@@ -1,0 +1,70 @@
+﻿@model BlogUpdate 
+@{
+    ViewData["Title"] = "UpdateBlog";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateBlog", "Blog", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    @Html.HiddenFor(i=>i.ID)
+
+    <div class="form-group">
+
+        <label>Title</label>
+        <input type="text" asp-for="Title" class="form-control" />
+
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Short Title</label>
+        <input type="text" asp-for="ShortTitle" class="form-control" />
+
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Content Title</label>
+        <textarea asp-for="ContentTitle"></textarea>
+
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Image</label>
+        <input type="file" asp-for="Images" class="form-control" />
+
+
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Gönder</button>
+
+
+}
+
+@section Css{
+
+
+
+    <link href="~/Trumbowyg-master/dist/ui/trumbowyg.css" rel="stylesheet" />
+}
+
+@section Javascript{
+
+    <script src="~/Trumbowyg-master/dist/trumbowyg.js"></script>
+
+    <script>
+
+        $("#ContentTitle").trumbowyg();
+
+
+
+    </script>
+
+}
+

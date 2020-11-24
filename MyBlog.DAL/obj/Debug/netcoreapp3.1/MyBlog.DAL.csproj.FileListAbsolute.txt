@@ -1,0 +1,17 @@
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.DAL.deps.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.DAL.runtimeconfig.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.DAL.runtimeconfig.dev.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.DAL.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.DAL.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.Entities.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.Map.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.Entities.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\bin\Debug\netcoreapp3.1\MyBlog.Map.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DAL\obj\Debug\netcoreapp3.1\MyBlog.DAL.genruntimeconfig.cache

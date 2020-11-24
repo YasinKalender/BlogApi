@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+    <PackageReference Include="NLog" Version="4.7.4" />
+    <PackageReference Include="NLog.Config" Version="4.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlog.DTO\MyBlog.DTO.csproj" />
+    <ProjectReference Include="..\MyBlog.Repository\MyBlog.Repository.csproj" />
+    <ProjectReference Include="..\MyBlog.Tools\MyBlog.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

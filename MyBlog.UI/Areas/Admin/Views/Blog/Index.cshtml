@@ -1,0 +1,43 @@
+﻿@model List<BlogListModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table table-bordered">
+
+    <thead>
+
+        <tr>
+            <th>Content Title</th>
+            <th>Short Title</th>
+            <th>Title</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+
+            <td>@item.ContentTitle</td>
+            <td>@item.ShortTitle</td>
+            <td>@item.Title</td>
+            <td><a asp-action="UpdateCategory" asp-controller="Category" asp-route-id="@item.ID">Güncelle</a></td>
+            <td>@Html.ActionLink("Sil", "DeleteBlog", "Blog", new { id = item.ID }, new { @class = "btn btn-danger" })</td>
+
+            <td><a asp-action="AssignCategory" asp-controller="Blog" asp-route-id="@item.ID">Kategori Ata</a></td>
+        </tr>
+        }
+
+
+    </tbody>
+
+
+
+</table>
+

@@ -1,0 +1,28 @@
+﻿@model List<MyBlog.DTO.DTO.CategoryDtos.CategoryListDto>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<h5 class="card-header">Categories</h5>
+
+
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                    @foreach (var item in Model)
+                    {
+                        <li>
+                            <a asp-action="Index" asp-controller="Home" asp-route-id="@item.ID" class="list-group-item list-group-item-action 
+                               @(ViewBag.active?.ToString()==item.ID.ToString()?"active":" ")">@item.CategoryName <span class="badge badge-pill">@item.CategoryBlogCount</span></a>
+                        </li>
+                        
+                       
+                    }
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+

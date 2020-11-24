@@ -1,0 +1,28 @@
+﻿@model CategoryAddUpdateDto
+@{
+    ViewData["Title"] = "CategoryUpdate";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("CategoryUpdate", "Category", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    @Html.HiddenFor(i=>i.ID)
+
+    <div class="form-group">
+
+        <label>Title</label>
+        <input type="text" asp-for="CategoryName" class="form-control" />
+
+
+    </div>
+
+
+
+
+    <button type="submit" class="btn btn-primary">Gönder</button>
+
+
+}
+
+

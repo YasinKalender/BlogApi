@@ -1,0 +1,16 @@
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Repository.deps.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Repository.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Repository.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.DAL.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Entities.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Map.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.DAL.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Entities.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\bin\Debug\netcoreapp3.1\MyBlog.Map.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Repository\obj\Debug\netcoreapp3.1\MyBlog.Repository.pdb

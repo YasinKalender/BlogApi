@@ -1,0 +1,553 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.UI\\MyBlog.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\MyBlog.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\MyBlog.Business.csproj",
+        "projectName": "MyBlog.Business",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\MyBlog.Business.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\MyBlog.Tools.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\MyBlog.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.4, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\MyBlog.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\MyBlog.DAL.csproj",
+        "projectName": "MyBlog.DAL",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\MyBlog.DAL.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\MyBlog.Map.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\MyBlog.Map.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj",
+        "projectName": "MyBlog.DTO",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj",
+        "projectName": "MyBlog.Entities",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\MyBlog.Map.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\MyBlog.Map.csproj",
+        "projectName": "MyBlog.Map",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\MyBlog.Map.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Map\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj",
+        "projectName": "MyBlog.Repository",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\MyBlog.DAL.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DAL\\MyBlog.DAL.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\MyBlog.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\MyBlog.Tools.csproj",
+        "projectName": "MyBlog.Tools",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\MyBlog.Tools.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Entities\\MyBlog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.UI\\MyBlog.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.UI\\MyBlog.UI.csproj",
+        "projectName": "MyBlog.UI",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.UI\\MyBlog.UI.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\MyBlog.Business.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.Business\\MyBlog.Business.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\MyBlog\\MyBlog.DTO\\MyBlog.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

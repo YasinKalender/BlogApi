@@ -1,0 +1,12 @@
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\bin\Debug\netcoreapp3.1\MyBlog.DTO.deps.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\bin\Debug\netcoreapp3.1\MyBlog.DTO.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\bin\Debug\netcoreapp3.1\MyBlog.DTO.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\bin\Debug\netcoreapp3.1\MyBlog.Entities.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\bin\Debug\netcoreapp3.1\MyBlog.Entities.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.DTO\obj\Debug\netcoreapp3.1\MyBlog.DTO.pdb

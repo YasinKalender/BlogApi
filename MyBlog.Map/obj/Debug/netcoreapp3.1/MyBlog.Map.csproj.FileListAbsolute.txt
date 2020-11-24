@@ -1,0 +1,12 @@
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\bin\Debug\netcoreapp3.1\MyBlog.Map.deps.json
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\bin\Debug\netcoreapp3.1\MyBlog.Map.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\bin\Debug\netcoreapp3.1\MyBlog.Map.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\bin\Debug\netcoreapp3.1\MyBlog.Entities.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\bin\Debug\netcoreapp3.1\MyBlog.Entities.pdb
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.dll
+C:\Users\ysnbj\Desktop\MyBlog\MyBlog.Map\obj\Debug\netcoreapp3.1\MyBlog.Map.pdb

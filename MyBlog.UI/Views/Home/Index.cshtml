@@ -1,0 +1,75 @@
+﻿@model List<BlogListModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_HomeLayout";
+}
+
+
+<div class="row">
+
+    <!-- Blog Entries Column -->
+    <div class="col-md-8">
+
+        <h1 class="my-4">
+            Page Heading
+            <small>Secondary Text</small>
+        </h1>
+        @if (ViewBag.active != null)
+        {
+            @Component.InvokeAsync("GetCategoryName", new { categoryid = @ViewBag.active })
+        }
+
+        @if (!string.IsNullOrWhiteSpace(@ViewBag.search))
+        {
+            @Component.InvokeAsync("Search", new { s = ViewBag.search })
+        }
+
+        <form asp-action="Index" asp-controller="Home" method="get">
+
+
+            <input type="text" name="s" class="form-control" />
+            <button type="submit" class="btn btn-primary">Ara</button>
+
+        </form>
+
+
+
+        <!-- Blog Post -->
+        @foreach (var item in Model)
+        {
+
+
+
+            <div class="card mb-4">
+                <GetBlogImage itemid="@item.ID"></GetBlogImage>
+                <div class="card-body">
+                    <h2 class="card-title">@item.Title</h2>
+                    <p class="card-text">@item.ContentTitle</p>
+                    <a asp-controller="Home" asp-action="BlogDetails" asp-route-id="@item.ID" class="btn btn-primary">Detay &rarr;</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Posted @item.AddDate.ToLongDateString()
+
+                </div>
+            </div>
+        }
+
+
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+            <li class="page-item">
+                <a class="page-link" href="#">&larr; Older</a>
+            </li>
+            <li class="page-item disabled">
+                <a class="page-link" href="#">Newer &rarr;</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+
+
+</div>
+<!-- /.row -->

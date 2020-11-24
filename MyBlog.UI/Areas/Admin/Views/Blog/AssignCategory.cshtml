@@ -1,0 +1,26 @@
+﻿@model List<CategoryModel> 
+@{
+    ViewData["Title"] = "AssignCategory";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<form action="AssignCategory" method="post">
+
+    <div class="form-check">
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            <input type="hidden" asp-for="@Model[i].CategoryID" />
+            <input type="hidden" asp-for="@Model[i].CategoryName" />
+
+            <input asp-for="@Model[i].Exist" type="checkbox" class="form-check-input" />
+            <label asp-for="@Model[i].Exist" class="form-check-label">@Model[i].CategoryName</label>
+        }
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+
+</form>
+
